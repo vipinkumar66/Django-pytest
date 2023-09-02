@@ -1,0 +1,9 @@
+pytest => to run normally
+pytest -x
+pytest -rP => to get all the print statements values
+pytest <folderpath/tests> or <foldername>
+@pytest.mark.skip() --> pytest -rxXs
+markers: Set them in the ini file and then use them in the @pytest.mark.setmarkervalue => pytest -m "markername"
+
+
+
